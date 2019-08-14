@@ -1,0 +1,14 @@
+C:\Users\rcmd\source\repos\GenomixDataManager\bin\Debug\netcoreapp2.2\GenomixDataManager.deps.json
+C:\Users\rcmd\source\repos\GenomixDataManager\bin\Debug\netcoreapp2.2\GenomixDataManager.runtimeconfig.json
+C:\Users\rcmd\source\repos\GenomixDataManager\bin\Debug\netcoreapp2.2\GenomixDataManager.runtimeconfig.dev.json
+C:\Users\rcmd\source\repos\GenomixDataManager\bin\Debug\netcoreapp2.2\GenomixDataManager.dll
+C:\Users\rcmd\source\repos\GenomixDataManager\obj\Debug\netcoreapp2.2\GenomixDataManager.csprojAssemblyReference.cache
+C:\Users\rcmd\source\repos\GenomixDataManager\obj\Debug\netcoreapp2.2\GenomixDataManager.csproj.CoreCompileInputs.cache
+C:\Users\rcmd\source\repos\GenomixDataManager\obj\Debug\netcoreapp2.2\GenomixDataManager.RazorAssemblyInfo.cache
+C:\Users\rcmd\source\repos\GenomixDataManager\obj\Debug\netcoreapp2.2\GenomixDataManager.RazorAssemblyInfo.cs
+C:\Users\rcmd\source\repos\GenomixDataManager\obj\Debug\netcoreapp2.2\GenomixDataManager.AssemblyInfoInputs.cache
+C:\Users\rcmd\source\repos\GenomixDataManager\obj\Debug\netcoreapp2.2\GenomixDataManager.AssemblyInfo.cs
+C:\Users\rcmd\source\repos\GenomixDataManager\obj\Debug\netcoreapp2.2\GenomixDataManager.RazorTargetAssemblyInfo.cache
+C:\Users\rcmd\source\repos\GenomixDataManager\bin\Debug\netcoreapp2.2\GenomixDataManager.pdb
+C:\Users\rcmd\source\repos\GenomixDataManager\obj\Debug\netcoreapp2.2\GenomixDataManager.dll
+C:\Users\rcmd\source\repos\GenomixDataManager\obj\Debug\netcoreapp2.2\GenomixDataManager.pdb
