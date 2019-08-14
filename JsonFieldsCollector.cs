@@ -81,5 +81,18 @@ namespace GenomixDataManager
             }
             return txt;
         }
+
+        public string GetValueIfKeyContains(string containedTxt1, string containedTxt2)
+        {
+            string txt = "";
+            foreach (var field in fields)
+            {
+                if (field.Key.Contains(containedTxt1) && field.Key.Contains(containedTxt2))
+                {
+                    txt += field.Key + " :\n" + field.Value + "\n";
+                }
+            }
+            return txt;
+        }
     }
 }

@@ -47,7 +47,7 @@ namespace GenomixDataManager.Controllers
 
             //string response = dataCollector.GetValue("table1[2].summary");
             //string response = dataCollect.GetValue("table2[2497].trait");
-            string response = dataCollector.GetValueIfKeyContains("table2");
+            string response = dataCollector.GetValueIfKeyContains("table1","summary");
             //// envoi de la réponse reçue à l'API de traduction Google Cloud Translator
 
             //Translate translator = new Translate();
