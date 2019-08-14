@@ -22,10 +22,17 @@ namespace GenomixDataManager
             string JsonString = stream.ReadToEnd();
             var json = JToken.Parse(JsonString);
 
+            // création du dictionnaire de données (fields)
             fields = new Dictionary<string, JValue>();
+            // création d'une liste répertoriant toutes les clés (fieldKeys)
             fieldsKeys = new List<string>();
 
+            // "remplissage" de fields
             CollectFields(json);
+
+            // "remplissage" de fieldsKeys
+            foreach (var field in fields)
+                fieldsKeys.Add($"{field.Key}");
         }
 
         private void CollectFields(JToken jToken)
@@ -62,5 +69,17 @@ namespace GenomixDataManager
             return fields[key].ToString();
         }
 
+        public string GetValueIfKeyContains(string containedTxt)
+        {
+            string txt = "";
+            foreach (var field in fields)
+            {
+                if (field.Key.Contains(containedTxt))
+                {
+                    txt += field.Key + " :\n" + field.Value + "\n";
+                }
+            }
+            return txt;
+        }
     }
 }
