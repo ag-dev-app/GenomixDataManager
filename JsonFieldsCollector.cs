@@ -9,30 +9,40 @@ namespace GenomixDataManager
 {
     public class JsonFieldsCollector
     {
-        //public string path = @"C:\Users\rcmd\Desktop\Aternum DEV\json\ag-SB20879-file all.json";
 
+        public readonly Dictionary<string, JValue> fields;
+        public Dictionary<string, JValue> translatedFields;
 
-        private readonly Dictionary<string, JValue> fields;
+        public dynamic jsonObject;
+
         private List<string> fieldsKeys;
 
 
-        public JsonFieldsCollector(string path)
+        public JsonFieldsCollector(string content)
         {
-            StreamReader stream = new StreamReader(path);
-            string JsonString = stream.ReadToEnd();
-            var json = JToken.Parse(JsonString);
+            //string JsonString = Deserialize(content).ToString();
 
-            // création du dictionnaire de données (fields)
+            var json = JToken.Parse(content);
+            
+            // initialisation du dictionnaire de données (fields)
             fields = new Dictionary<string, JValue>();
-            // création d'une liste répertoriant toutes les clés (fieldKeys)
+
+            // initialisation du dictionnaire de données (translatedFields)
+            translatedFields = new Dictionary<string, JValue>();
+
+            // initialisation liste de keys fieldKays
             fieldsKeys = new List<string>();
 
             // "remplissage" de fields
             CollectFields(json);
 
-            // "remplissage" de fieldsKeys
+            // remplissage fieldsKeys
             foreach (var field in fields)
                 fieldsKeys.Add($"{field.Key}");
+
+            translatedFields = fields;
+
+            jsonObject = JToken.Parse(content);
         }
 
         private void CollectFields(JToken jToken)
@@ -58,11 +68,11 @@ namespace GenomixDataManager
 
         public IEnumerable<KeyValuePair<string, JValue>> GetAllFields() => fields;
 
-
         public List<string> GetFieldsKeys()
         {
             return fieldsKeys;
         }
+
 
         public string GetValue(string key)
         {
@@ -76,7 +86,7 @@ namespace GenomixDataManager
             {
                 if (field.Key.Contains(containedTxt))
                 {
-                    txt += field.Key + " :\n" + field.Value + "\n";
+                    txt += field.Value + "\n\n";
                 }
             }
             return txt;
@@ -89,10 +99,16 @@ namespace GenomixDataManager
             {
                 if (field.Key.Contains(containedTxt1) && field.Key.Contains(containedTxt2))
                 {
-                    txt += field.Key + " :\n" + field.Value + "\n";
+                    txt += field.Value + "\n\n";
                 }
             }
             return txt;
+        }
+
+        public Dictionary<string,JValue> SetTranslatedDictionnary(string key, string value)
+        {
+            translatedFields[key].Value = value;
+            return translatedFields;
         }
     }
 }

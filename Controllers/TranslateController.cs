@@ -2,12 +2,15 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using GenomixDataManager.Models;
+using System.Threading;
+using Newtonsoft.Json.Linq;
 
 namespace GenomixDataManager.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
     public class TranslateController : ControllerBase
     {
@@ -18,56 +21,54 @@ namespace GenomixDataManager.Controllers
         private string JSONField;
         // @TODO : Ajouter constructeur
 
-        // GET api/translate?field=table1[1].summary
+        // GET api/translate
+        // @Param : jsonFile=<fichier>
+        // @Param : fields=table1[1].summary
+        [Route("api/[controller]")]
         [HttpGet]
-        public ActionResult<string> Get([FromQuery(Name = "field")] string field)
+        [Produces("application/json")]
+        public async Task<ActionResult<JToken>> Get(Data data)
         {
-            return Post();
-            //return new string[] { field, "Le champ demandé est " + field };
+            string jsonString = "";
+            string response = "";
+
+            Translate translator = new Translate();
+            Stream stream = new MemoryStream(data.jsonFile.Buffer);
+            StreamReader jsonReader = new StreamReader(stream);
+
+            jsonString = await jsonReader.ReadToEndAsync();
+
+            JsonFieldsCollector dataCollector = new JsonFieldsCollector(jsonString);
+
+            string translatedTxt = "";
+
+            foreach (var field in data.fields)
+            {
+                dataCollector.jsonObject[field] = translator.TranslateText(dataCollector.jsonObject[field].ToString());
+
+                //dataCollector.SetTranslatedDictionnary(field, translatedTxt);
+
+
+                //response += "Field " + field + " : " + translatedTxt + "\n\n";
+                //@Todo : Ajouter un setter pour les fields du dictionnaire 
+                response += "Field " + field + " : " + dataCollector.jsonObject[field];
+            }
+
+            return dataCollector.jsonObject;
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        // GET api/translate/fields
+        [Route("api/[controller]/fields")]
+        [HttpGet]
+        public async Task<ActionResult<List<string>>> GetFields()
         {
-            return "value";
-        }
+            string jsonString = "";
+            StreamReader bodyReader = new StreamReader(Request.Body);
 
-        // POST api/translate
-        [HttpPost]
-        // Pas besoin du consume : par défaut c'est du application/json
-        public ActionResult<string> Post()
-        {
-            string path = @"C:\Users\rcmd\Desktop\Aternum DEV\json\ag-SB20879-file all.json";
+            jsonString = await bodyReader.ReadToEndAsync();
 
-            //// le plus volumineux des JSON, dans lequel on n'a aucune trad a faire
-            //string path = @"C:\Users\rcmd\Desktop\Aternum DEV\json\ag-SB20879-file carrier.json"; 
-
-            JsonFieldsCollector dataCollector = new JsonFieldsCollector(path);
-
-            //string response = dataCollector.GetValue("table1[2].summary");
-            //string response = dataCollect.GetValue("table2[2497].trait");
-            string response = dataCollector.GetValueIfKeyContains("table1","summary");
-            //// envoi de la réponse reçue à l'API de traduction Google Cloud Translator
-
-            //Translate translator = new Translate();
-            //string translatedResponse = translator.TranslateText(response);
-
-            //return response + "\r\n\r\n" + translatedResponse;
-
-            return response;
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            JsonFieldsCollector dataCollector = new JsonFieldsCollector(jsonString);
+            return dataCollector.GetFieldsKeys();
         }
     }
 }

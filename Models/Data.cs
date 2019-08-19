@@ -1,24 +1,17 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using GenomixDataManager.Formatters.MultipartDataMediaFormatter.Infrastructure;
+using Newtonsoft.Json.Linq;
 
 namespace GenomixDataManager.Models
 {
     public class Data
     {
-        public string Key { get; set; }
-        public string Value { get; set; }
-
-        public Data()
-        {
-
-        }
-
-        public Data(string key, string value)
-        {
-            Key = key;
-            Value = value;
-        }
+        public HttpFile jsonFile { get; set; }
+        public List<string> fields { get; set; }
     }
 }

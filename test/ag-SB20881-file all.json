@@ -1,0 +1,216 @@
+{
+  "your report": [
+    [
+      "\n <p id = \"leftalign\">Do you feel like scratching yourself raw every time your neighbour's pet rubs past you? Have you ever wondered why your friend gets the sniffles every year during summer? Do you know allergies are a major cause of illnesses? Nearly 50 million Americans suffer from some form of allergy. An allergy is a hypersensitive immune reaction to an allergen that enters the body or comes in contact with it.</p>\n\n<p>Everyone with an allergy has an interesting story about how they discovered that their body reacted violently to seemingly harmless allergens. Once an allergy is triggered, the symptoms can range from being annoying to deadly. From an evolutionary angle, allergies provided an alarm that kept humans away from toxic chemicals, either from venomous animals or plants. The reaction from the body\u2019s immune system acted as a warning system that prompted our ancestors to move to other parts of the forest.</p>\n\n<p>The balance has shifted with modernisation where there is exposure to a lot of synthetic chemicals, leading to a rise in allergy incidences. Our ancestors moved to other parts of the forest to avoid an allergic reaction, however, we continue to be exposed due to the presence of allergens indoors.</p>\n\n<p>Some Interesting facts about genes and allergy.</p>\n\n<ul><li>Family and twin studies have shown that allergies are partly genetic</li>\n<li>A child with a parent with allergy is 3 to 6 times more likely to have asthma</li>\n <li>Food allergies lead to 150 to 200 fatalities every year in the U.S</li>\n<li>Allergies are the sixth leading cause of chronic illness in the U.S, with an annual cost of $18 million</li>\n<li>Allergic rhinitis affects 30% of the Indian population</li>\n<li>Nearly 80% of histamine intolerant patients are middle-aged</li>\n<li>Heritability for allergic diseases is estimated to be 95% for asthma, 84% for atopic dermatitis and 91% for allergic rhinitis</li>\n<li>Upto 70% of the variation in the risk for motion sickness is genetic</li></ul>\n\n<p>Gene variations are partly responsible for the risk of allergies. Other factors include environmental triggers, stress and the presence of gut microbes.</p>\n\n<p>In this report we profile genes that are associated with the risk for various indoor, outdoor and food allergies.</p>\n\n<p>We hope this report helps you understand your body better and you safeguard yourself from exposure to allergens based on your genes, to lead a healthier life.</p>"
+    ]
+  ],
+  "how to read": [
+    [
+      "\n\n<h4 class=\"text-center\" id = \"slabo\"><b>Human health is a complex interplay between genetics and the environment (lifestyle, diet, activity, stress, etc.). Your genes and the environment that you are exposed to, both play a vital role in your well-being.</b></h4>\n\n<p>This report is presented in a user friendly language and format. The following tips will help you get the best information value out of the report.</p>\n\n<p><b>1. The word \u201clikely\u201d is used often in the report. What does it mean?</b></p>\n<p>People generally know that high cholesterol can lead to heart conditions. However, there are individuals with high cholesterol who do not develop heart disease. Similarly, smoking can lead to lung disease, but not always. Hence, certain genetic parameters can lead to certain outcomes but other factors may modify the outcome. \u201cLikely\u201d means, it is more likely that one will see the outcome, but other factors may modify it.</p>\n<p><b>2. What does the term \u201cmoderate\u201d mean in the report?</b></p>\n<p>Moderate implies neither high nor low, rather an intermediate or an average outcome. For example, moderate likelihood of pets allergy is an intermediate level between high and low likelihood.</p>\n<p><b>3. How do I know which result is applicable to me?</b></p>\n<p>Only results with a check mark (\"\\u2713\") are applicable to you, the others are not applicable. All possible outcomes are provided in the table to provide a context to your outcome.</p>\n<p><b>4. Where did the information contained in the report come from?</b></p>\n<p>The genetic markers that are used in this report are based on scientific studies published in international journals. A list of references is available for you to read on our web blog.</p>\n<p><b>5. Some sentences are colored in green and others in red, why?</b></p>\n<p>Low risk for a specific allergy is indicated in green while high risk is in red. Moderate or Neutral outcomes are indicated in black.<br><br>\n<b>6. What is the difference between lactose intolerance and milk allergy?</b></p>\n<p>Lactose intolerance occurs due to insufficient amount of lactase enzyme, resulting in the inability to digest lactose, a sugar present in milk. Milk allergy, on the other hand, is an allergic reaction to the proteins present in milk.</p>\n\n\n"
+    ]
+  ],
+  "table1": [
+    {
+      "trait": "Cockroach Allergy",
+      "summary": " A genetic tendency for higher risk of being allergic to cockroaches due to increased sensitivity.",
+      "comb": "Moderate: Moderately likely to be allergic to cockroaches.*lg] Low: Less likely to be allergic to cockroaches. _sss_*rr] High: Highly likely to be allergic to cockroaches."
+    },
+    {
+      "trait": "Dust Mites Allergy",
+      "summary": " A genetic tendency for higher risk of being allergic to dust mites due to increased sensitivity.",
+      "comb": "Moderate: Moderately likely to be allergic to dust mites.*lg] Low: Less likely to be allergic to dust mites. _sss_*rr] High: Highly likely to be allergic to dust mites."
+    },
+    {
+      "trait": "Pets Allergy",
+      "summary": " A genetic tendency for higher risk of being allergic to pets due to increased sensitivity.",
+      "comb": "Moderate: Moderately likely to be allergic to pets. _sss_*lg] Low: Less likely to be allergic to pets.*rr] High: Highly likely to be allergic to pets."
+    },
+    {
+      "trait": "Contact Dermatitis",
+      "summary": " A genetic tendency for higher risk of being susceptible to contact dermatitis",
+      "comb": "Moderate: Moderately likely to have contact dermatitis.*lg] Low: Less likely to have contact dermatitis. _sss_*rr] High: Highly likely to have contact dermatitis."
+    },
+    {
+      "trait": "Egg Allergy",
+      "summary": " A genetic tendency for higher risk of being allergic to eggs due to increased sensitivity",
+      "comb": "Moderate: Moderately likely to be allergic to eggs.*lg] Low: Less likely to be allergic to eggs.*rr] High: Highly likely to be allergic to eggs. _sss_"
+    },
+    {
+      "trait": "Milk Allergy",
+      "summary": " A genetic tendency for higher risk of being allergic to milk protein due to increased sensitivity",
+      "comb": "Moderate: Moderately likely to be allergic to milk.*lg] Low: Less likely to be allergic to milk. _sss_*rr] High: Highly likely to be allergic to milk."
+    },
+    {
+      "trait": "Lactose Intolerance",
+      "summary": " A genetic tendency for variation in response to lactose due to lactase deficiency",
+      "comb": "lg] Tolerant: Less likely to be lactose intolerant. _sss_*rr] Intolerant: Likely to be lactose intolerant"
+    },
+    {
+      "trait": "Peanut Allergy",
+      "summary": " A genetic tendency for higher risk of being susceptible to peanut allergy due to increased sensitivity",
+      "comb": "Moderate: Moderately likely to be allergic to peanuts.*lg] Low: Less likely to be allergic to peanuts. _sss_*rr] High: Highly likely to be allergic to peanuts."
+    },
+    {
+      "trait": "Hay Fever",
+      "summary": " A genetic tendency for higher risk of being susceptible to hay fever.",
+      "comb": "Moderate: Moderately likely to be susceptible to hay fever. _sss_*lg] Low: Less likely to be susceptible to hay fever.*rr] High: Highly likely to be susceptible to hay fever."
+    },
+    {
+      "trait": "Pollen Allergy",
+      "summary": " A genetic tendency for higher risk of being allergic to pollen grains due to increased sensitivity",
+      "comb": "Moderate: Moderately likely to have pollen allergy. _sss_*lg] Low: Less likely to have pollen allergy.*rr] High: Highly likely to have pollen allergy."
+    },
+    {
+      "trait": "Grass Allergy",
+      "summary": " A genetic tendency for higher risk of being allergic to grass due to increased sensitivity",
+      "comb": "Moderate: Moderately likely to have grass allergy. _sss_*lg] Low: Less likely to have grass allergy.*rr] High: Highly likely to have grass allergy."
+    },
+    {
+      "trait": "Histamine Intolerance",
+      "summary": " A genetic tendency for higher risk of being susceptible to histamine intolerance",
+      "comb": "Moderate: Moderately likely to have histamine intolerance.*lg] Low: Less likely to have histamine intolerance. _sss_*rr] High: Highly likely to have histamine intolerance."
+    },
+    {
+      "trait": "Misophonia",
+      "summary": " A genetic tendency for higher risk of being susceptible to misophonia",
+      "comb": "Moderate: Moderately likely to have misophonia. _sss_*lg] Low: Less likely to have misophonia.*rr] High: Highly likely to have misophonia."
+    },
+    {
+      "trait": "Motion Sickness",
+      "summary": " A genetic tendency for higher risk of being susceptible to motion sickness",
+      "comb": "Moderate: Moderately likely to have motion sickness. _sss_*lg] Low: Less likely to have motion sickness.*rr] High: Highly likely to have motion sickness."
+    },
+    {
+      "trait": "Photic Sneeze",
+      "summary": " A genetic tendency for higher risk of being susceptible to sneeze reflex upon exposure to light",
+      "comb": "Moderate: Moderately likely to be susceptible to photic sneeze.*lg] Low: Less likely to be susceptible to photic sneeze. _sss_*rr] High: Highly likely to be susceptible to photic sneeze."
+    }
+  ],
+  "table2": [
+    {
+      "trait": "Cockroach Allergy",
+      "genes": "IL12A",
+      "description": "Cockroaches are nocturnal insects and they come out during the night to feed. The protein present in the body parts of cockroaches, their saliva and their waste trigger allergies. They live in drain pipes and in all types of houses and buildings. Nearly 60% of houses contain cockroach allergens, so there is year-long exposure to these allergens.  People of certain genetic types are at a higher risk of being allergic to cockroaches and may experience the following symptoms: <b>red eyes, skin rash, cough, runny nose or asthma.</b> \n",
+      "outcome": "lg] Low: Less likely to be allergic to cockroaches.",
+      "recommendation": "You have a low genetic tendency to be allergic to cockroaches. * Even though you have a low risk for cockroach allergies, safeguard yourself from exposure to cockroaches as they spread disease.* Use cockroach repellents to prevent the entry of cockroaches into the house.* Fix leaky pipes and cracks on the wall.* Restrict the use of sprays as they could also trigger allergies"
+    },
+    {
+      "trait": "Dust Mites Allergy",
+      "genes": "C11ORF30, IL102, TSLP, IL101, HLA, IL1RL1, IL10, LINC00299, IL4, GSDMA",
+      "description": "Dust mites are extremely small creatures, belonging to the same family as spiders and ticks, and found in many homes. According to the Asthma and allergy foundation of America, dust mites are one of the most common triggers for year round allergy. Dust mites feed on human skin that is shed every day, on an average 1.5 kg of human skin is shed by every human. The flakes of skin may be present on furniture, bedding and even on toys. People of certain genetic types are at a higher risk of being allergic to dust mites and may experience the following symptoms: <b>sneezing, runny nose, red eyes, skin rash, cough or asthma. </b>\n",
+      "outcome": "lg] Low: Less likely to be allergic to dust mites.",
+      "recommendation": "You have a low genetic tendency to be allergic to dust mites."
+    },
+    {
+      "trait": "Pets Allergy",
+      "genes": "C11ORF30, GSDMA, INTERGENIC, IL1RL1, HLA-DQB1 , TSLP, HLA",
+      "description": "According to American Academy of Allergy Asthma and Immunology, 62% of households in the US have pets. Animal protein from skin cells, waste, hair and saliva could trigger an allergic reaction, known as pet allergy. Pets tend to shed dead skin and hair which can accumulate in all corners of the house. People of certain genetic types are at a higher risk of being allergic to pets and may experience the following symptoms:  <b>sniffling, itchiness, sneezing and watery eyes. </b>\n",
+      "outcome": "Moderate: Moderately likely to be allergic to pets. ",
+      "recommendation": "You have a moderate genetic tendency to be allergic to pets.* If you experience any of the afore mentioned symptoms upon exposure to the allergen, try avoiding it to see if the symptoms subside.* If your symptoms persist, speak to your physician. * Find ways to manage your allergy if you do not want to give your pet up for adoption. * Designate certain spaces in your house as pet free, like your bedroom or your home office where you spend considerable amount of time.* Teach your pet not to climb onto furniture as pet dander on furniture can also lead to an allergic reaction.* Use hypoallergenic bedding to lower the risk of allergen exposure.* Do not touch or pet your dog or cat. *Clean your house more often, changing air filters and shampooing the carpets frequently."
+    },
+    {
+      "trait": "Contact Dermatitis",
+      "genes": "TNF",
+      "description": "Contact dermatitis is a type of eczema which is triggered by contact with a particular allergen or substance. A high proportion of individuals affected by this condition are industrial workers in health, skin-care, beauty, food industry and metal-related occupations. Normally the symptoms of contact dermatitis will not appear on first contact with an allergen, but on subsequent contact, due to sensitisation, symptoms will develop. People of certain genetic types have a higher risk for contact dermatitis and may experience the following symptoms: <b>redness, itching, blisters and occasionally, dry and scaly skin.</b> ",
+      "outcome": "lg] Low: Less likely to have contact dermatitis. ",
+      "recommendation": "You have a low genetic tendency to have contact dermatitis."
+    },
+    {
+      "trait": "Egg Allergy",
+      "genes": "COG7, ITIH5L, ERCC4",
+      "description": "Egg allergy occurs when the body\u2019s immune system recognizes egg protein as foreign and mounts an immune reaction. The symptoms of egg allergy usually begin within a few hours of consuming egg and this allergy is most common among children. However, most children outgrow this allergy. People of certain genetic types are at a higher risk of beng allergic to eggs and may experience the following symptoms: <b>hives or skin inflammation, nasal congestion, asthma, nausea and vomiting. </b>\n",
+      "outcome": "rr] High: Highly likely to be allergic to eggs. ",
+      "recommendation": "You have a high genetic tendency to be allergic to eggs.* If you experience any of the afore mentioned symptoms upon exposure to the allergen, try avoiding it to see if the symptoms subside.* If your symptoms persist, speak to your physician.*Be careful while eating out. *Check the food label carefully. Watch out for words like fat substitutes, albumin, lecithin, ovalbumin, mayonnaise, lysozyme, levitin, meringue and surimi. * Put on an allergy bracelet for a child. *shampoos, soaps, lotions and even certain drugs could contain egg proteins."
+    },
+    {
+      "trait": "Milk Allergy",
+      "genes": "TLR6, TMEM26, IL10, IL2, IMPAD1",
+      "description": "Milk allergy occurs when the body's immune system recognizes milk proteins as foreign and mounts an immune response. The symptoms of milk allergy usually begins within a few minutes to a few hours after consumption of milk. This type of food allergy is identified during infanthood but most children with milk allergy normally outgrow it. People of certain genetic types are at a higher risk of being allergic to milk and may experience the following symptoms: <b> abdominal cramping, wheezing, hives, itchy skin and diarrhea. Babies with this condition may also be colic. </b>\n",
+      "outcome": "lg] Low: Less likely to be allergic to milk. ",
+      "recommendation": "You have a low genetic tendency to be allergic to milk.* Include dairy products in your diet based on your risk for lactose intolerance."
+    },
+    {
+      "trait": "Lactose Intolerance",
+      "genes": "MCM6",
+      "description": "Lactose intolerance is a condition in which there is decreased ability to digest lactose, a sugar present in milk. People of certain genetic types stop producing lactase during adulthood, an enzyme needed to breakdown lactose and may experience the following symptoms: <b> abdominal cramps, bloating, nausea, fatigue or diarrhoea. </b>",
+      "outcome": "lg] Tolerant: Less likely to be lactose intolerant.",
+      "recommendation": "You are less likely to be lactose intolerant. *Include dairy products in the diet based on your risk for milk allergy. *Include milk and other dairy products as sources of calcium, vitamin D and milk protein"
+    },
+    {
+      "trait": "Peanut Allergy",
+      "genes": "HMGA2, LOC100129104|ZFAT, HLA-DQB1, STXBP6, HLA-DRA",
+      "description": "Nearly 3 million people in the U.S. have peanut and tree nut allergy. A study by researchers from Mount Sinai School of Medicine(New York) has shown that genes account for 81.6% of the risk for peanut allergies. The symptoms of peanut allergy are triggered with even the slightest of exposure.People of certain genetic types are at a higher risk of being allergic to peanuts and may experience the following symptoms:  <b>an itchy mouth, a tingling sensation runny nose, congestion or anaphylaxis. </b>\n",
+      "outcome": "lg] Low: Less likely to be allergic to peanuts. ",
+      "recommendation": "You have a low genetic tendency to be allergic to peanuts."
+    },
+    {
+      "trait": "Hay Fever",
+      "genes": "ZBTB10, GSDMA, HLA-DQB1, CLEC16A, SMAD3, LRRC32, IL1RL1, WDR36, TSLP, IL33",
+      "description": "Hay fever may be triggered by many allergens including pet allergens and pollen grains. This type of allergy gets its name from incidents of a stuffy nose, nasal congestion, itchy eyes and watery eyes while harvesting fields. People of certain genetic types are at a higher risk of having hay fever and may experience the following symptoms: <b>runny nose and other symptoms similar to a common cold but with red and itchy eyes.</b>",
+      "outcome": "Moderate: Moderately likely to be susceptible to hay fever. ",
+      "recommendation": "You have a moderate genetic tendency to be susceptible to hay fever. *If you experience any of the afore mentioned symptoms upon exposure to the allergen, try avoiding it to see if the symptoms subside.*If your symptoms persist, speak to your physician. *Wash your hair and have a shower before bedtime. * Use nasal saline sprays to remove allergen particles from the nose.* Saline nasal sprays may be prepared by boiling sterile or distilled water at home and adding salt. This solution can be sprayed into the nose using a spray bottle or a nasal syringe"
+    },
+    {
+      "trait": "Pollen Allergy",
+      "genes": "GSDMA, TSLP, IL1RL1, HLA, LRRC32",
+      "description": "Pollen allergy is one of the leading causes of hay fever. The immune system of the host recognizes pollen grain as foreign and mounts a strong reaction which is exhibited as classic symptoms of pollen allergy. People of certain genetic types are at a higher risk of being allergic to pollens and may experience the following symptoms: <b>an asthma attack, conjunctivitis or a stuffy nose</b>\n",
+      "outcome": "Moderate: Moderately likely to have pollen allergy. ",
+      "recommendation": "You have a moderate genetic tendency to have pollen allergy.* If you experience any of the afore mentioned symptoms upon exposure to the allergen, try avoiding it to see if the symptoms subside.* If your symptoms persist, speak to your physician.* Avoid activities like gardening during early morning hours as the pollen count is more during that time.* Have a shower and wash your hair before bedtime as pollen could get deposited on your skin and hair.* There are mobile apps to detect the level of pollen in the air. Check the pollen levels before you step out. *Dry clothes in a dryer rather than hanging it out on a clothesline.* Run your air conditioner at home with a HEPA filter to remove pollen from the air."
+    },
+    {
+      "trait": "Grass Allergy",
+      "genes": "DNAH5, EPS15, HLA region, LRRC32, ABL2",
+      "description": "Grass allergy is very common as grass pollens scatter in the wind, which is different from other pollens that are transmitted by insects. This increases the risk of these allergens being inhaled. Grass pollen is released during late spring and early summer. People of certain genetic types are at a higher risk of being allergic to grass and may experience the following symptoms: <b>itchy eyes, stuffy nose and a cough. </b>",
+      "outcome": "Moderate: Moderately likely to have grass allergy. ",
+      "recommendation": "You have a moderate genetic tendency to have grass allergy.* If you experience any of the afore mentioned symptoms upon exposure to the allergen, try avoiding it to see if the symptoms subside.* If your symptoms persist, speak to your physician. *Most types of grass release pollen only when they grow tall. So mowing the lawn periodically will help prevent the allergy. *Keep your windows closed on a windy day to prevent the entry of grass pollen.* Wear a mask when you are out in the garden."
+    },
+    {
+      "trait": "Histamine Intolerance",
+      "genes": "AOC13, AOC14, AOC1",
+      "description": "Histamine intolerance occurs when the functions of the histamine N-methyltransferase (HNMT) and histamine-degrading enzyme diamine oxidase (DAO) are impaired. Histamine is produced by the body during a local immune response and is a neurotransmitter. It is present in our stomach, skin and lungs. In typical individuals, excess of histamine is degraded rapidly but when this degradation is affected, it leads to histamine intolerance. People of certain genetic types are at a higher risk of having histamine intolerance and may experience the following symptoms: <b>headaches, dizziness, abdominal cramps. </b>\n",
+      "outcome": "lg] Low: Less likely to have histamine intolerance. ",
+      "recommendation": "You have a low genetic tendency to have histamine intolerance."
+    },
+    {
+      "trait": "Misophonia",
+      "genes": "TENM2",
+      "description": "Misophonia is a sensitivity to the sound of chewing and the trigger sounds are chewing food, munching, gum chewing, sipping and foot steps. This condition usually begins during late childhood. People of certain genetic types are at a higher risk of having misophonia and may experience the following symptoms: <b>feelings of rage, an intense feeling of flight, with some people becoming emotionally explosive. </b>\n",
+      "outcome": "Moderate: Moderately likely to have misophonia. ",
+      "recommendation": "You have a moderate genetic tendency to have misophonia.* If you experience any of the afore mentioned symptoms upon exposure to the allergen, try avoiding it to see if the symptoms subside.*If your symptoms persist, speak to your physician.*Identify the noise trigger that drives your symptoms. Try and avoid exposure to such sounds.* Wear ear plugs, especially when you are dining out.* Distract yourself when you are exposed to unavoidable sounds of chewing by thinking about pleasant moments."
+    },
+    {
+      "trait": "Motion Sickness",
+      "genes": "ACO1, GPD2, PVRL3, AUTS2, GPR26, UBE2E2, CBLN4, COPS8, MUTED, CPNE4, RWDD3, PRDM16, NLGN1, HOXD, LRP1B, LINGO2, TLE4, NR2F2, CNTN1, SDK1, CELF2, ST18, ARAP2, AUTS21, RGS5, MAP2K5, HOXB, AGA, TUSC1, GXYLT2, SDK11, POU6F2",
+      "description": "If you have ever been sick on a bumpy boat ride, then you know what motion sickness is. This condition occurs in some people whenever they travel by car, airplane, ship or a train. Other names for motion sickness are kinetosis or travel sickness and children are found to be more susceptible to this condition than adults. 60% of aircrew students were found to have motion sickness at some point during their training and in a large study conducted in India, 28% were found to suffer from motion sickness. Motion sickness occurs when the inner ear, body and the eye send signals to the brain that are conflicting. People of certain genetic types are at a higher risk of having motion sickness and may experience the following symptoms: <b>nausea, fatigue and dizziness. </b>\n",
+      "outcome": "Moderate: Moderately likely to have motion sickness. ",
+      "recommendation": "You have a moderate genetic tendency to have motion sickness. * If you experience any of the afore mentioned symptoms upon travel by car, flight or by boat, notice if the symptoms subside post travel. * If you experience motion sickness, follow these simple tips.* Sit in the front of the car or in the middle of the boat.* Open the windows of the car and breathe fresh air.* Close your eyes and focus on your breathing.* Children who are prone to motion sickness may benefit from being engaged in an activity that would distract them. * Do not watch a movie or use gadgets while the vehicle is in motion.* Do not have a heavy meal during travel."
+    },
+    {
+      "trait": "Photic Sneeze",
+      "genes": "INTERGENIC",
+      "description": "When moving from darkness to light, the part of the brain that processes light is over activated in some people, resulting in sneezing, called photic sneeze.This condition is found to affect 18-35% of the U.S population. People of certain genetic types are at a higher risk of having photic sneeze and may experience the following symptoms: <b> uncontrolled sneezing in response to stimulus, sneezing bursts that include 1 to 10 sneezes and a refractory period that can last for 24 hours.</b>",
+      "outcome": "lg] Low: Less likely to be susceptible to photic sneeze. ",
+      "recommendation": "You have a low genetic tendency to have photic sneeze."
+    }
+  ],
+  "table3": "",
+  "table4": "",
+  "table5": "",
+  "disclaimer": [
+    [
+      "<p>Xcode provides genetic assessment services for research or investigational use and Xcode\u2019s reports should be interpreted or used exclusively by professional practitioners including but not limited to certified physicians, dieti tians, nutritionists, sports therapists and others in similar profession (\u201cProfessional Practitioners\u201d). Xcode does not provide any direct medical advice to individual patients and this report is to be strictly interpreted by a qualified medical or health services professionals in order to provide relevant medical or healthcare advice, diagnosis or treatment. Genetic information must always be considered in conjunction with other information about your health such as lifestyle, family history, risk factors, biomedical data, diet, nutrition and physical activity among other factors. A single gene mutation is not the only factor that influences the health conditions or outcomes and there are several factors other than your genes such as the environment and lifestyle that may influence the health outcome. You are responsible to ascertain that your Professional Practitioner is qualified to consider the genetic information indicated in this report in conjunction with all other information made available to him/her about you including your family health history, lifestyle, bio-medical data and any other information that you may provide to the Professional Practitioner. Xcode shall not be held responsible for any misinterpretation by your Professional Practitioner of this Report or for any matter arising out of this report.</p> \n      <p>Only full genome sequences are exhaustive. All other forms of genetic tests only provide a limited subset of genetic information that has been found to be relevant to specific conditions. Since this report is not generated by conducting a whole genome sequence test, the results reported are limited to a specific set of mutations known to be associated with specific conditions. Genetic information is also subject to revision based on the latest advances in scientific research. Therefore it is possible that the interpretation of results reported herein may vary or be altered subject to ongoing research. Sometimes, the interpretations may vary from company to company based on which studies are being given a higher preference compared to others.</p>\n      <p>Xcode\u2019s role is limited to providing results of genetic test and providing a broad set of general recommendations. More detailed recommendations that may be specific to you are to be made by qualified Professional Practitioners only. General guidelines provided in our report are for information purpose only and are meant to aid your Professional Practitioner to render the relevant professional or medical advice and treatment. While assessing your genetic parameters and providing the report and recommendations, we do not consider your past or existing health conditions and or any medication taken by you (either in the past or currently), even if you may have provided us with such information. Our report and the recommendations therein are to be acted upon in consultation with a medical or other health and wellness professional practitioner.</p>\n      <p>Your reliance upon the report is solely at your own discretion. As with all health and medical related matters, you should exercise adequate care in using the information provided in this report or on our website. Xcode disclaims any responsibility for any errors and/or omissions by you or other persons either during collection of DNA samples or delivery of the DNA sample to Xcode. We make no warranties of any kind, either express or implied, including, without limitation, the implied warranties of merchantability, fitness for a particular purpose, accuracy and non- infringement. The information in this report is for Research Use Only (RUO) or Investigational Use Only (IUO), meant to assist in further clinical diagnosis or treatment by Professional Practitioners.</p>\n"
+    ]
+  ],
+  "about us": "",
+  "graphical_version": 0,
+  "CFP": "",
+  "ES_pie": "",
+  "PFC": "",
+  "EPF": "",
+  "reportname": "Allergy Response",
+  "Name": "ag",
+  "ID": "SB20881",
+  "uploaded_file": "ag-SB20881-file.csv",
+  "partner": "ag",
+  "package": "Allergy"
+}
