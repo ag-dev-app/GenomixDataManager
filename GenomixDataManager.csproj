@@ -6,9 +6,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\lib\jquery-validation-unobstrusive\**" />
+    <Content Remove="wwwroot\lib\jquery-validation-unobstrusive\**" />
+    <EmbeddedResource Remove="wwwroot\lib\jquery-validation-unobstrusive\**" />
+    <None Remove="wwwroot\lib\jquery-validation-unobstrusive\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Google.Cloud.Translation.V2" Version="1.2.0-beta02" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\bootstrap\" />
+    <Folder Include="wwwroot\lib\jquery\" />
+    <Folder Include="wwwroot\lib\jquery-validation\" />
   </ItemGroup>
 
 </Project>

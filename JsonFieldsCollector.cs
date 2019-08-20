@@ -1,22 +1,22 @@
 ﻿using Newtonsoft.Json.Linq;
 using System;
+using GenomixDataManager.Models;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace GenomixDataManager
-{
+{ 
     public class JsonFieldsCollector
     {
 
         public readonly Dictionary<string, JValue> fields;
-        public Dictionary<string, JValue> translatedFields;
+        public Dictionary<string, JValue> translatedFields { get; set; }
 
-        public dynamic jsonObject;
+        public dynamic jsonObject { get; set; }
 
-        private List<string> fieldsKeys;
-
+        public List<string> fieldsKeys { get; set; }
 
         public JsonFieldsCollector(string content)
         {
@@ -35,10 +35,6 @@ namespace GenomixDataManager
 
             // "remplissage" de fields
             CollectFields(json);
-
-            // remplissage fieldsKeys
-            foreach (var field in fields)
-                fieldsKeys.Add($"{field.Key}");
 
             translatedFields = fields;
 
@@ -70,6 +66,11 @@ namespace GenomixDataManager
 
         public List<string> GetFieldsKeys()
         {
+            if (fieldsKeys == null)
+            {
+                fieldsKeys = new List<string>();
+                fieldsKeys = fields.Keys.ToList();
+            }
             return fieldsKeys;
         }
 

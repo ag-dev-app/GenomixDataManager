@@ -21,6 +21,9 @@ namespace GenomixDataManager.Controllers
         private string JSONField;
         // @TODO : Ajouter constructeur
 
+        public JObject jsonObj { get; set; }
+        public JsonFieldsCollector dataColl { get; set; }
+
         // GET api/translate
         // @Param : jsonFile=<fichier>
         // @Param : fields=table1[1].summary
@@ -30,7 +33,6 @@ namespace GenomixDataManager.Controllers
         public async Task<ActionResult<JToken>> Get(Data data)
         {
             string jsonString = "";
-            string response = "";
 
             Translate translator = new Translate();
             Stream stream = new MemoryStream(data.jsonFile.Buffer);
@@ -40,35 +42,24 @@ namespace GenomixDataManager.Controllers
 
             JsonFieldsCollector dataCollector = new JsonFieldsCollector(jsonString);
 
-            string translatedTxt = "";
-
             foreach (var field in data.fields)
             {
+
                 dataCollector.jsonObject[field] = translator.TranslateText(dataCollector.jsonObject[field].ToString());
 
-                //dataCollector.SetTranslatedDictionnary(field, translatedTxt);
-
-
-                //response += "Field " + field + " : " + translatedTxt + "\n\n";
-                //@Todo : Ajouter un setter pour les fields du dictionnaire 
-                response += "Field " + field + " : " + dataCollector.jsonObject[field];
             }
-
-            return dataCollector.jsonObject;
+            jsonObj = dataCollector.jsonObject;
+            dataColl = dataCollector;
+            return jsonObj;
         }
 
         // GET api/translate/fields
         [Route("api/[controller]/fields")]
         [HttpGet]
-        public async Task<ActionResult<List<string>>> GetFields()
+        public ActionResult<List<string>> GetFields()
         {
-            string jsonString = "";
-            StreamReader bodyReader = new StreamReader(Request.Body);
-
-            jsonString = await bodyReader.ReadToEndAsync();
-
-            JsonFieldsCollector dataCollector = new JsonFieldsCollector(jsonString);
-            return dataCollector.GetFieldsKeys();
+            return dataColl.GetFieldsKeys();
         }
+
     }
 }
